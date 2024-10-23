@@ -1,6 +1,6 @@
 const fs = require('fs-extra');
 const path = require('path');
-const { processMarkdown } = require('./parseMarkdown');
+const { processMarkdown } = require('./src/services/parseMarkdown');
 
 const inputDir = 'content';
 const outputDir = 'public';
